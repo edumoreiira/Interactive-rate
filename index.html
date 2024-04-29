@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <section class="rate-wrapper">
+  <section class="rate-wrapper" data-visible="form" id="rate-wrapper">
 
     <form action="" id="rate-form">
       <div class="star-icon">
@@ -51,14 +51,12 @@
           <label for="5">5</label>
         </li>
       </ul>
-      <input class="submit-btn" type="button" value="submit">
+      <input class="submit-btn" type="button" value="submit" id="submit-rate">
     </form>
 
-    <div class="thank-you">
+    <div class="thank-you" id="thank-you">
       <img src="./images/illustration-thank-you.svg" alt="">
-      <div class="submitted-rate" id="submitted-rate">
-        You selected 4 out of 5
-      </div>
+      <div class="submitted-rate" id="submitted-rate"></div>
       <div class="description">
         <h1>Thank you!</h1>
         <p>  We appreciate you taking the time to give a rating. If you ever need more support, 
