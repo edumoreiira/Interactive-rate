@@ -25,6 +25,7 @@ img{
 .rate-wrapper{
     background-color: $primaryColor;
     max-width: min(23em, 100%);
+    min-height: 23em;
     border-radius: 2em;
     padding: 2em;
     position: relative;
@@ -46,6 +47,7 @@ img{
     }
     #rate-form{
         display: flex;
+        display: none;
         flex-direction: column;
         gap: 1.5em;
 
@@ -124,6 +126,33 @@ img{
         }
     }
     .thank-you{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        img{
+            max-width: 10em;
+        }
+        .submitted-rate{
+            background-color: $softGray;
+            padding: .6em 1em;
+            border-radius: 2em;
+            font-size: .8em;
+            color: $secondaryColor;
+        }
+        .description{
+            text-align: center;
+            h1{
+                font-weight: 500;
+                color: #e9e9e9;
+                margin-bottom: .6em;
+            }
+            p{
+                color: $lightBkgGray;
+                font-size: .8em;
+                letter-spacing: .05em;
+                line-height: 1.5em;
+            }
+        }
     }
 }
