@@ -38,7 +38,7 @@ Sendo um projeto estático, a sua execução é simples:
     ```
 3.  **Abra o arquivo `index.html` em seu navegador de preferência.**
 
-## convention Destaques do Código e Boas Práticas
+## 🤝 Destaques do Código e Boas Práticas
 
 Este projeto, embora simples, aplica conceitos importantes de desenvolvimento front-end.
 
